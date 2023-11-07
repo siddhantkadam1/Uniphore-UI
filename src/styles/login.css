@@ -1,0 +1,113 @@
+@import "../styles/variables.css";
+
+.login-page-container{
+    width: 80%;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: end;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font);
+}
+
+.login-image-container{
+    width: 419px;
+    height: 419px;
+    background: transparent url('../assets/login-banner-image.png') 0% 0% no-repeat padding-box;
+
+}
+
+.login-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-container-heading{
+    width: 74%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.login-form-container-heading h2{
+    color: var(--primary-blue);
+    letter-spacing: 0.01px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.login-form-heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.login-form-heading h2{
+    font: normal normal normal;
+    font-size: 29px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.login-form{
+    background-color: var(--light-blue);
+    padding: 60px 50px;
+    border-radius: 21px;
+    margin-left: auto;
+}
+
+.login-form-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.userName{
+    margin-bottom: 5px;
+}
+
+.login-form-forgot-password{
+    margin-left: 10px;
+}
+
+.login-form-forgot-password a{
+    margin: 0;
+    padding: 0;
+}
+.remember-me{
+    font-family: var(--font);
+}
+.poppins-font{
+    font-family: var(--font) !important;
+}
+
+.login-with-github{
+    text-align: left;
+    margin: 8px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 2rem;
+    width: 50%;
+    padding: 5px 10px;
+}
+.login-with-github:active{
+    transform: scale(.9);
+}
+.required{
+    font-size: 12px;
+    margin-left: 9px;
+    color: red;
+    font-family: var(--font);
+
+}

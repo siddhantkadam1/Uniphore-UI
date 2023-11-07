@@ -1,0 +1,42 @@
+ .single-user {
+     font-size: 14px;
+     margin-bottom: 8px;
+     display: flex;
+     gap: 12px;
+     line-height: 1;
+ }
+
+ .remove-user{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #F26868;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F26868;
+    text-align: center;
+    cursor: pointer;
+ }
+
+ .remove-user:active{
+    transform: scale(.9);
+}
+
+.sidebar-plus-btn:active{
+    transform: scale(.9);
+}
+
+.no-users-found{
+    margin-bottom: 2rem;
+}
+.common-res{
+    font-size: 14px;
+}
+.margin-zero{
+    margin:0 !important;
+    margin-top: 9px !important;
+}
+.mt{
+    margin-top: 2rem;
+}

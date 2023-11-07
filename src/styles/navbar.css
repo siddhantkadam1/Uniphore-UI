@@ -1,0 +1,107 @@
+@import '../../src/styles/variables.css';
+
+.navLink{
+    cursor: pointer;
+    color: var(--black);
+    font-size: 19px;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: var(--font);
+}
+
+.active{
+    color: var(--primary-blue);
+}
+
+.inactive{
+    color: var(--black);
+}
+
+.nav-logo{
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--primary-blue);
+    cursor: pointer;
+}
+
+.nav-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font);
+
+}
+
+.nav-logo-container{
+    padding-left: 25px;
+}
+
+.nav-list-container{
+    padding-right: 20px;
+}
+
+.nav-list-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.nav-list-item{
+    margin-right: 25px;
+}
+
+.user-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.profile-photo{
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-name, .profile-icon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile-name p{
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--black);
+    letter-spacing: normal;
+}
+
+:root {
+    --primary-color: #3498db; 
+    --text-color: #ffffff;  
+    --hover-color: #1c87c9;  
+  }
+  
+  .logout-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 9px;
+  }
+  
+  .logout-button:hover {
+    background-color: var(--hover-color);
+  }

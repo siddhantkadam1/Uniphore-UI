@@ -1,0 +1,87 @@
+@import '../../src/styles/variables.css';
+
+.table-container{
+    box-shadow: 0px 0px 6px var(--shadow);
+    border-radius: 12px;
+    width: auto;
+    overflow: hidden;
+    padding: 10px;
+    font-family: var(--font);
+}
+
+.table-cell{
+    width: auto;
+    cursor: pointer;
+    border-bottom: 1px solid var(--black);
+}
+
+.menu{
+    box-shadow: 0px 0px 6px #80818329;
+    padding: 8px;
+    position: absolute;
+    transform: translateX(-72px);
+    display: none;
+    background-color: white;
+    display: none;
+}
+.menu.show{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    height: 75px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  border-radius: 0.5rem;
+    padding-right: 1.5rem;
+    padding-left: 11px;
+}
+.menu-container{
+ position: relative;;
+}
+
+ 
+
+.icons{
+    width: 25px;
+    height: 25px;
+}
+ 
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.margin-btm{
+    margin-bottom: 5px;
+}
+.edit-row{
+    margin-bottom: 10px;
+}
+
+.dots{
+    position: relative;
+}
+.dots:hover ~ .menu{
+    background-color: blue;
+}
+/* 
+.edit-icon:hover,.delete-icon:hover{
+    color: #AC0521;
+    cursor: pointer;
+} */
+.no-data-found{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--font);
+    text-align: center;
+    margin-top: 3rem;
+    color: #ada6a6;
+
+}
+.more-vert:hover{
+    color: #AC0521;
+}
+ 

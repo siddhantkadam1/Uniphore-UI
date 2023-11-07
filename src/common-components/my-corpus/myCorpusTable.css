@@ -1,0 +1,8 @@
+.checkmark-icon{
+    width: 30px;
+    height: 30px;
+}
+.no-underline{
+    border-bottom:none !important;
+
+}

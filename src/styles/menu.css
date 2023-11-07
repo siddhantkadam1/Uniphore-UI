@@ -1,0 +1,32 @@
+/* .edit-mui-icon:hover,.delete-mui-icon:hover{
+    cursor: pointer;
+    color: #AC0521;
+} */
+
+@import '../styles/variables.css';
+
+.edit-row:hover .edit-mui-icon ,.edit-row:hover .edit-icon{
+    cursor: pointer;
+    color: #AC0521 !important;
+}
+
+.delete-row:hover .delete-mui-icon , .delete-row:hover .delete-icon{
+    cursor: pointer;
+    color: #AC0521 !important;
+}
+.show.show-push-pull{
+    height: auto;
+    width: 115px;
+    margin: 0 !important;
+    padding: 1rem 0rem .5rem 0.5rem !important;
+}
+.push,.pull,.edit-icon,.delete-icon{
+    font-size: 14px !important;
+    color: #012148 !important;
+    font-family: var(--font) !important; 
+    font-weight: 500 !important;
+}
+.menu-flex{
+    display: flex;
+   gap: 10px;
+}

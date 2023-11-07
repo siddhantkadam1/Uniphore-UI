@@ -1,0 +1,10 @@
+@import '../../src//styles/variables.css';
+.common-table-container{
+   
+
+}
+
+.loading{
+    font-family: var(--font);
+
+}

@@ -1,0 +1,49 @@
+
+@import '../../src/styles/variables.css';
+ 
+
+ 
+.corpus-management-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 3.99rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #CBD2DC;
+}
+
+.corpus-mg-right,.users-left{
+    display: flex;
+    align-items: center;
+}
+.users-left{
+    gap: 2.5rem;
+}
+.corpus-mg-right{
+    flex-direction: row-reverse;
+    gap: 0px;
+    margin-bottom: 2rem;
+}
+.teams,.users{
+    font-size: 18px;
+    color: #b2b6ba;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.border-active{
+    color: #012148;
+    border-bottom: 2px solid #348AEF;
+}
+
+.corpus-mg-info-input-button{
+    font-family: var(--font) !important;
+    font-size: 14px;
+    font-weight: normal;
+}
+.dir-reverse{
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+

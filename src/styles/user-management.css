@@ -1,0 +1,48 @@
+
+@import '../../src/styles/variables.css';
+
+
+.user-management-bottom-container > * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+
+}
+
+
+.user-management-bottom-container{
+    padding: 0px 30px;
+}
+.user-management-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 3.99rem;
+    margin-bottom: 2rem;
+}
+
+.users-right,.users-left{
+    display: flex;
+    align-items: center;
+}
+.users-left{
+    gap: 2.5rem;
+}
+.users-right{
+    flex-direction: row-reverse;
+    gap: 20px
+}
+.teams,.users{
+    font-size: 18px;
+    color: #b2b6ba;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.border-active{
+    color: #012148;
+    border-bottom: 2px solid #348AEF;
+}
+
+

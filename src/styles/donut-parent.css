@@ -1,0 +1,68 @@
+@import '../../src/styles/variables.css';
+
+
+.donut-parent-container {
+    display: flex;
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    gap: 3rem;
+    margin-top: 57px;
+    margin-bottom: 20px;
+    width: 95vw;
+    overflow-x: scroll;
+    align-items: flex-start;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.left {
+    display: flex;
+    gap: 3.5rem;
+    box-shadow: 0px 0px 6px var(--shadow);
+    border-radius: 12px;
+    padding: 19px 49px;
+
+}
+
+.right {
+    display: flex;
+    gap: 3.5rem;
+    box-shadow: 0px 0px 6px var(--shadow);
+    border-radius: 12px;
+    padding: 19px 58px;
+
+}
+
+.table-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+    column-gap: 3.5rem;
+    margin-top: 2rem;
+    padding-right: 3rem;
+
+}
+
+@media screen and (max-width:1330px) {
+    .donut-parent-container {
+        gap: 1rem;
+    }
+
+    .left {
+        gap: 1.5rem;
+        padding: 19px 30px;
+    }
+
+    .right {
+        gap: 1.5rem;
+        padding: 19px 33px;
+    }
+}
+
+@media screen and (max-width:1330px) and (min-width:1200px) {
+    .donut-parent-container {
+        gap: 2rem;
+    }
+}

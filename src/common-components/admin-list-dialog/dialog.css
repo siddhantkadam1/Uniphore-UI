@@ -1,0 +1,22 @@
+@import '../../styles/variables.css';
+
+.admin-dialog-title,.admin-list-item{
+    font-size: 16px;
+    font-family: var(--font);
+    color: #012148;
+    font-weight: 500;
+}
+
+.admin-list-item{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dialog-cancel{
+    float:right;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+

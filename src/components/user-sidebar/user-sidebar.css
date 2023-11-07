@@ -1,0 +1,151 @@
+ 
+@import '../../../src/styles/variables.css';
+
+.users-sidebar-wrapper > * ,p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+
+}
+
+
+.users-sidebar-wrapper{
+    height: 100%;
+    position: relative;
+    min-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    padding: 0px 16px;
+}
+
+.users-sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0px;
+    padding-left: 8px;
+    border-bottom: 1px solid #CBD2DC;
+    margin-bottom: 36px;
+    padding-right: 29px;
+}
+.users-sidebar-header p{
+    font-size: 23px;
+    color: #012148;
+    font-family: var(--font);
+
+
+}
+
+.users-two-col {
+    display: flex;
+    gap: 10px;
+}
+
+.users-flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-right: 48px;
+    margin-bottom: 16px;
+}
+.line{
+    height: 1px;
+    background-color: #CBD2DC;
+    margin-bottom: 16px;
+}
+
+.sidebar-labels{
+    color: red !important;
+    font-size: 12px !important;
+}
+.users-sidebar-middle-heading{
+    color: #012148;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 17px;
+    font-family: var(--font);
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.users-sidebar-select-user{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+.sidebar-plus-btn{  
+    color:#348AEF; 
+    font-size: 14px;
+    flex-shrink: 0;
+    cursor: pointer;
+    font-family: var(--font);
+
+} 
+
+.existing-user{
+    font-size: 14px;
+    color: #012148;
+    font-family: var(--font);
+    margin-bottom: 11px;
+    
+}
+
+.users-sidebar-existing-user-container{
+    padding-bottom: 12px;
+}
+.users-single-user{
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    gap: 12px;
+    line-height: 1;
+    font-family: var(--font);
+    line-height: 1;
+}
+
+.sidebar-edit-wrapper{
+    width: 30vw;
+}
+
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop{
+    background-color:rgb(2 72 120 / 43%) !important;
+}
+
+.email-id{
+    color: red !important;
+}
+
+.remove-user{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #F26868;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F26868;
+    text-align: center;
+    cursor: pointer;
+ }
+
+ .remove-user:active{
+    transform: scale(.9);
+}
+.mx-width{
+    max-width: 300px;
+    min-width: 62px;
+}
+
+.success{
+    font-size: 14px;
+    margin-top: -22px;
+}
+.success-red{
+    font-size: 14px;
+    margin-top: -22px;
+    color: red;
+}
+ 

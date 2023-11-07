@@ -1,0 +1,23 @@
+.corpus-flex-col{
+    padding-right: 1rem;
+}
+
+.select-dropdown{
+    width:  15vw;
+}
+
+.column-two,.column-one{
+    flex: 1 !important;
+}
+
+.corpus-flex-col{
+    gap: 23px;
+}
+.btn-width{
+    width: 80px;
+}
+
+.error-msg-cc{
+    font-size: 11px;
+    color: red;
+}

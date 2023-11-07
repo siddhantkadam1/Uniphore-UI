@@ -1,0 +1,32 @@
+@import '../../src/styles/variables.css';
+
+.donut-container{
+    width:167px;
+    height: 167px;
+}
+
+.name{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin: 12px 0px;
+    text-align: center;
+    margin-bottom: 0;
+    letter-spacing: 0.01px;
+    color: #405876;
+    opacity: 1;
+    font-size: 18px;
+    font-family: var(--font);
+    letter-spacing: 0.01px;
+    font-weight: 300;
+    line-height: 0.8;
+}
+ 
+@media screen and (max-width:1330px) {
+    .donut-container{
+        height: 155px;
+        width: 155px;
+    }
+    
+}
+
