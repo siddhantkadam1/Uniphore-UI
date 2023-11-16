@@ -1,6 +1,5 @@
 import '../../components/data-set/dataset-table.css'
 import '../../common-components/my-corpus/myCorpusTable.css'
-import checkmark from "../../../src/assets/ checkmark.webp";
 
 import * as React from 'react';
 import { useTheme } from '@mui/material/styles';
